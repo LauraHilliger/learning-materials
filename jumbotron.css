@@ -3,6 +3,25 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.jumbotron{
+      /*Thanks to Paul Foreman http://mindmapinspiration.com for this fine header image fair use */
+	      background-image: url('https://mozillawebmakerproxy.net/f4ebfe4aefd565bcd5339043523ea9e121d5dd84?url=http://www.mindmapinspiration.com/wp-content/uploads/2010/02/Problem-Minus-Ego-Equals-Solution.jpg');
+	      background-size:auto;
+	      background-color: #ee8950;
+	      background-position: center center;
+      }
+      
+.jumbotron .container{
+	      background-color:rgba(0, 0, 0, 0.8);
+	      padding-top:25px; 
+	      padding-bottom:25px;
+	      padding-right:50px;
+	      padding-left:50px;
+	      border-radius:3px;
+	      color:white;
+      }
+      
 div img{
 	max-width: 35%;
 	float: left;
