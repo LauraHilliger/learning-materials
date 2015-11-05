@@ -8,3 +8,8 @@ div img{
 	float: left;
 	padding-right:2%;
 }
+
+div.frontPage img{
+	max-width:100%;
+	float:none;
+}
