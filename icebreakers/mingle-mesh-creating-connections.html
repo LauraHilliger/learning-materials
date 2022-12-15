@@ -5,24 +5,29 @@ Edit the HTML below to add your own content, links and images.
 Code comments like these will help with hints and guides. 
 Need help? Start here: http://mzl.la/teachingkit-tips
 ================================================================ -->
-<html>
-<head>
+<html><head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta content="activity" name="webmaker:tags">
-<link href="https://stuff.webmaker.org/webmaker-kits/v2/css/style.css" media="all" rel="stylesheet" type="text/css">
+<meta content="width=640px" name="viewport">
+<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css">
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+<link href="../css/style-desktop.css" media="all" rel="stylesheet" type="text/css">
+<link href="../css/style-mobile.css" media="screen and (max-device-width: 640px)" rel="stylesheet" type="text/css">
+<link href="../css/style-print.css" media="print" rel="stylesheet" type="text/css">
+<meta content="teach" name="webmaker:tags">
+  <!-- =============================== -->
+<!-- ADD A THUMBNAIL IMAGE HERE -->
+<!-- This is the image that will be displayed on the front page or Teach page -->
+  <meta content="https://laurahilliger.github.io/learning-materials/images/icebreaker.png" name="webmaker:thumbnail">
+<!-- =============================== -->
+
 <!-- =============================== -->
 <!-- ADD YOUR TITLE HERE -->
-<title>Mingle Mesh: Creating Connections</title>
-  <style>
-    .attribution{
-      font-size:.7em;
-    }
-  </style>
+<title>Introductions and Setup</title>
 <script>(function fixExternalLinks() {
               function pointToBlank(a) {
                 var href = a.getAttribute("href");
-                if (href && href.indexOf("//") > -1) {
+                if (href && href.indexOf("://") > -1) {
                   // this is an external link.
                   if(!a.getAttribute("target")) {
                     a.setAttribute("target", "_blank");
@@ -40,35 +45,48 @@ Need help? Start here: http://mzl.la/teachingkit-tips
               document.addEventListener("DOMContentLoaded", fixLinks);
             }())</script>
 </head>
-<body class="activity">
+<body>
+<div class="wrapper">
 
-  <div id="ribbon">Activity</div>
+  <header id="header">
+    <div class="note-paper-side"></div>
+    <div class="note-paper"></div>
+    <div id="teachingkit-banner">
+      Activity
+    </div>
 
-  <header>
-    <hgroup id="header-group">
+    <div id="header-img">
+      <img alt="Header Image" height="180" src="../images/icebreaker.png" width="180">
+    </div>
+
+    <div id="header-content">
+      <hgroup id="header-group">
         <h1>Mingle Mesh: Creating Connections</h1>
-        <h2>Learners explore and discuss why connecting to other people is important. The facilitator should use this activity to help determine why learners want to connect and help them explore the benefits of connection in a guided discussion.</h2>
-       <p id="made-by">Made by <a href="http://laurahilliger.com">Laura</a></p>
-    </hgroup>
-
+         <h2>Learners explore and discuss why connecting to other people is important. The facilitator should use this activity to help determine why learners want to connect and help them explore the benefits of connection in a guided discussion.</h2>
+      </hgroup>
+      <div id="metadata">
+       <span id="made-by">Made by <a href="https://webmaker.org/u/laura" id="author">Laura Hilliger</a></span>
+      </div>
+    </div>
   </header>
-  <div class="wrapper">
-    <div class="row">
-      <main>
-        <section class="step-section">
-          <h2>Steps for the Activity</h2>
+
+  <div id="content">
+    <div id="left-side">
+
+      <section class="step-section">
+        <h1 class="big-green-title">Steps for the Activity</h1>
         <ol>
           <li>
           <p>
-        To set up the activity, get all participants standing in a circle. Introduce the idea of participation and empathy at a meta level. This exercise is about helping people think about how they participate in the world, so the facilitator will need to help guide the conversation, particularly if working with youth.
+         To set up the activity, get all participants standing in a circle. Introduce the idea of participation and empathy at a meta level. This exercise is about helping people think about how they participate in the world, so the facilitator will need to help guide the conversation, particularly if working with youth.
           </p>
+         
           </li>
-
-          <li>
+            <li>
             <p><img src="https://farm5.staticflickr.com/4129/4987793218_8f35ce7107_z_d.jpg" alt="photo by John Donaghy"></p> 
             <p><a href="https://www.flickr.com/photos/johndonaghy/4987793218/" class="attribution">photo by John Donaghy</a></p>
           <p>Holding onto one end of the string or yarn, toss the ball to someone in the group and ask them a question concerning participation and empathy. Some sample questions might be: </p>
-            <div class="well example">
+             <div class="example-div">
             <ul>
               <li>Why is connection important?</li>
   			  <li>What do you think "culture of participation" means?</li>
@@ -82,47 +100,58 @@ Need help? Start here: http://mzl.la/teachingkit-tips
           </div>
           </li>
 
-          <li>
+           <li>
           <p>Whomever catches the ball gives their response to the question and then asks a new question. Then, the learner asks a new question and tosses the ball to someone new. If the questions stray too widely from the themes of participation, connectivity and empathy, the facilitator should request the ball.</p>
           </li>
-          <li>
+
+           <li>
             <p>Continue the discussion until everyone has answered at least one question.
             </p>
           </li>
         </ol>
-     </section>
+      </section>
 
-      </main>
+    </div>
+
+    <div id="right-side">
+
+  
+
+      <section class="small-checkbox-section">
+        <h1><i class="icon-check-sign"></i> Materials</h1>
 <!--What is needed to run this activity? Replace the example materials with those your activity needs!-->
-      <aside>
-        <section class="materials">
-          <h2><i class="fa fa-check-square-o"></i> Materials</h2>
-          <div class="well checklist">
+        <div>
           <ul>
-            <li><input id="r4" type="checkbox"> Ball of string or yarn</li>
+            <li><input id="r4" type="checkbox"><label for="r4"></label> Ball of string or yarn</li>
           </ul>
-       </div>
-        </section>
-        <section class="discussion">
-          <h2><i class="fa fa-comments"></i> Discussion</h2>
-          <div class="well yellow">
-  Discuss how would the created web might look different if the questions, participants, etc had been in a different order. <p>Use the created web as a metaphor for the World Wide Web and discuss how we are all connected through information, participation, cultural understandings and shared history.</p>
-         </div>
-        </section>
-        <section class="teach-list">
-          <h2>Related Activities</h2>
-          <div>
-            <ul>
+        </div>
+      </section>
+      <section class="attention-section">
+        <h1><i class="icon-comments"></i> Discussion</h1>
+        <div> Discuss how would the created web might look different if the questions, participants, etc had been in a different order. <p>Use the created web as a metaphor for the World Wide Web and discuss how we are all connected through information, participation, cultural understandings and shared history.        </div>
+      </section>
+<!-- ADDITIONAL RESOURCES -->
+      <section class="teach-list">
+        <h1>Related Activities</h1>
+        <div>
+          <ul>
 
-              <li><a href="https://mozteach.makes.org/thimble/how-to-run-a-spectrogram-icebreaker">Spectrogram</a></li>
+            <li><a href="https://mozteach.makes.org/thimble/how-to-run-a-spectrogram-icebreaker">Spectrogram</a></li>
             <li><a href="https://mozteach.makes.org/thimble/a-strong-wind-blows-for-the-open-web">A Strong Wind Blows</a></li>
             <li><a href="https://mozteach.makes.org/thimble/adventure-time">Adventure Time</a></li>
+
           </ul>
-          </div>
-        </section>
-      </aside>
+        </div>
+      </section>
+<!-- =============================== -->
+<!-- TAGS 
+Help others know what skills and competencies your activity helps teach by tagging it! You'll have the opportunity to add tags upon publish. If your kit teaches Web Skills, consider using the Web Literacy Standard to tag it! Here's a helpful resource: https://support.mozilla.org/en-US/kb/how-tag-webmaker-makes-web-literacy-standard
+-->
+<!-- =============================== -->
     </div>
+
   </div>
-  <script src="//stuff.webmaker.org/webmaker-kits/v2/js/main.min.js"></script>
-</body>
-</html>
+</div>
+
+
+</body></html>
